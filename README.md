@@ -8,12 +8,12 @@ Este backend permite realizar: creacion de usuarios, autenticar usuarios, crear 
 
 `https://calendarbackend-api.herokuapp.com/api`
 
-*Crear usuario*
+**Crear usuario**
 ```
 Método HTTP: POST
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/auth/new
 ```
-Datos obligatorios:
+- Datos obligatorios:
 ```json
 {
     "name": "demo",
@@ -27,14 +27,14 @@ Datos obligatorios:
 Método HTTP: POST
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/auth
 ```
-Datos obligatorios:
+- Datos obligatorios:
 ```json
 {
     "email": "demo@correo.com",
     "password": "demo123456"
 }
 ```
-Ejemplo de respuesta (crear usuario y autenticar):
+- Ejemplo de respuesta (crear usuario y autenticar):
 ```json
 {
     "ok": true,
@@ -60,7 +60,7 @@ Ruta requerida: https://calendarbackend-api.herokuapp.com/api/events
 Método HTTP: POST
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/events
 ```
-Datos obligatorios:
+- Datos obligatorios:
 ```json
 {
     "title": "trabajo pendiente",
@@ -75,7 +75,7 @@ Para la actualizacion debes indicar el id del evento.
 Método HTTP: PUT
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/events/:id
 ```
-Ejemplo de respuesta (crear y actualizar evento):
+- Ejemplo de respuesta (crear y actualizar evento):
 ```json
 {
     "ok": true,
@@ -95,7 +95,7 @@ Para eleminar debes indicar el id del evento.
 Método HTTP: DELETE
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/events/:id
 ```
-Ejemplo de respuesta
+- Ejemplo de respuesta
 ```json
 {
     "ok": true,
