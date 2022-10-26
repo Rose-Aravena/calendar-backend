@@ -8,7 +8,7 @@ Este backend permite realizar: creacion de usuarios, autenticar usuarios, crear 
 
 `https://calendarbackend-api.herokuapp.com/api`
 
-**Crear usuario**
+*Crear usuario*
 ```
 Método HTTP: POST
 Ruta requerida: https://calendarbackend-api.herokuapp.com/api/auth/new
